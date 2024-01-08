@@ -9,8 +9,8 @@ use Phpml\CrossValidation\RandomSplit;
 
 //loading the data
 
-//$data = new CsvDataset("./data/insurance.csv", 1, true);
-$data = new CsvDataset("./data/test.csv", 1, true);
+$data = new CsvDataset("./data/insurance.csv", 1, true);
+//$data = new CsvDataset("./data/test.csv", 1, true);
 
 //preprocessing data
 $dataset = new RandomSplit($data, 0.2, 156);
@@ -32,7 +32,7 @@ echo "r2score is : ". $score;  // % accuracy
 
 //making predictions with trained models
 echo "\n";
-var_dump($regression->predict([8]));
+var_dump($regression->predict([80]));
 
 
 

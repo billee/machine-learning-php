@@ -1,3 +1,6 @@
 xampp, machine-learning-php
 
 https://www.udemy.com/course/machine-learning-in-php/learn/lecture/36101916#overview
+by AMIR KAMIZI
+
+composer require php-ai/php-ml
